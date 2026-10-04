@@ -1,0 +1,32 @@
+{
+ "formato": 1,
+ "versao": "2026.10.04-1047",
+ "gerado_em": "2026-10-04T10:47",
+ "arquivo": "bases.json.gz",
+ "tamanho": 345393,
+ "sha256": "2b128a39abb79d491af90d2cb9645160dee8268baeeb83d370886e732e585ee3",
+ "conteudo_sha256": "128ba88b276cbed83f1024da0338250404769034bdcd8d64c645e9d56bea7370",
+ "bases": {
+  "cat68": {
+   "nome": "Portaria CAT 68/2019 (ICMS-ST SP)",
+   "registros": 1049,
+   "atualizado_em": "2026-10-03T18:32"
+  },
+  "cest": {
+   "nome": "Convênio ICMS 142/2018 (CEST)",
+   "registros": 1272,
+   "atualizado_em": "2026-10-03T18:49"
+  },
+  "monofasico": {
+   "nome": "PIS/COFINS monofásico (SPED 4.3.10 e Lei 10.485/2002)",
+   "registros": 125,
+   "atualizado_em": "2026-10-03T18:59"
+  },
+  "ncm": {
+   "nome": "Tabela NCM (Siscomex)",
+   "registros": 15157,
+   "atualizado_em": "2026-10-03T23:17",
+   "vigencia": "Vigente em 03/10/2026"
+  }
+ }
+}
