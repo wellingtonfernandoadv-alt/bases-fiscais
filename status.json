@@ -1,5 +1,5 @@
 {
- "verificado_em": "2026-10-04T15:25",
+ "verificado_em": "2026-10-04T15:32",
  "pacote_novo": false,
  "versao": "2026.10.04-1047",
  "bases": [
@@ -14,9 +14,10 @@
   {
    "base": "cest",
    "nome": "Convênio ICMS 142/2018",
-   "ok": false,
-   "erro": "URLError: <urlopen error timed out>",
-   "registros": 1272
+   "ok": true,
+   "pulada": true,
+   "registros": 1272,
+   "motivo": "fonte inacessível daqui; mantida a última versão publicada"
   },
   {
    "base": "ncm",
