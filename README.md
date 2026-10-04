@@ -30,6 +30,9 @@ publica um pacote novo. Para rodar na hora: aba **Actions → Atualizar bases no
 - Se uma fonte estiver fora do ar ou vier com bem menos registros que antes (mudança de
   layout do site), a versão anterior daquela base é mantida e a execução fica vermelha
   (o GitHub avisa por e-mail).
+- **CEST (Convênio 142):** o site do CONFAZ recusa conexões de fora do Brasil, então a nuvem
+  pula essa base. Ela é atualizada toda segunda às 10h por uma tarefa agendada num PC no Brasil
+  (`coletor/atualizar_cest_local.ps1`, tarefa "Ficha Fiscal - atualizar CEST").
 - `status.json` mostra a última verificação e o resultado de cada base.
 - `dados/` guarda a última versão boa de cada base (CSV) e a meta de cada uma.
 
