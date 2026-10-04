@@ -1,0 +1,19 @@
+{
+ "atualizado_em": "2026-10-03T18:59",
+ "fontes": [
+  "http://sped.rfb.gov.br/arquivo/download/1638",
+  "https://www.planalto.gov.br/ccivil_03/leis/2002/l10485.htm"
+ ],
+ "registros": 125,
+ "excecoes": [
+  "30039056",
+  "30049046"
+ ],
+ "por_grupo": {
+  "Autopeças": 66,
+  "Fármacos e perfumarias": 22,
+  "Veiculos, maquinas e autopeças": 21,
+  "Combustíveis": 11,
+  "Bebidas frias": 5
+ }
+}

@@ -1,0 +1,39 @@
+{
+ "verificado_em": "2026-10-04T15:21",
+ "pacote_novo": false,
+ "versao": "2026.10.04-1047",
+ "bases": [
+  {
+   "base": "cat68",
+   "nome": "Portaria CAT 68/2019",
+   "ok": true,
+   "mudou": false,
+   "registros": 1049,
+   "antes": 1049
+  },
+  {
+   "base": "cest",
+   "nome": "Convênio ICMS 142/2018",
+   "ok": true,
+   "mudou": false,
+   "registros": 1272,
+   "antes": 1272
+  },
+  {
+   "base": "ncm",
+   "nome": "Tabela NCM",
+   "ok": true,
+   "mudou": false,
+   "registros": 15157,
+   "antes": 15157
+  },
+  {
+   "base": "monofasico",
+   "nome": "PIS/COFINS monofásico",
+   "ok": true,
+   "mudou": false,
+   "registros": 125,
+   "antes": 125
+  }
+ ]
+}

@@ -1,0 +1,126 @@
+﻿ncm_norma;ncm_prefixo;grupo;descricao;fonte;condicao
+2710.12.59;27101259;Combustíveis;101 - Gasolinas, Exceto Gasolina de Aviação;SPED Tabela 4.3.10;
+2710.19.21;27101921;Combustíveis;102 - Óleo Diesel;SPED Tabela 4.3.10;
+2711.19.10;27111910;Combustíveis;103 - Gás Liqüefeito de Petróleo – GLP;SPED Tabela 4.3.10;
+2710.19.11;27101911;Combustíveis;104 - Querosene de Aviação;SPED Tabela 4.3.10;
+3826.00.00;38260000;Combustíveis;109 - Biodiesel;SPED Tabela 4.3.10;
+3826.00.00Ex 01;38260000;Combustíveis;109 - Biodiesel;SPED Tabela 4.3.10;Só o Ex 01 da TIPI
+2207.10;220710;Combustíveis;112 - Álcool, Inclusive para Fins Carburantes – Venda por Produtor ou Importador.;SPED Tabela 4.3.10;
+2207.20.1;2207201;Combustíveis;112 - Álcool, Inclusive para Fins Carburantes – Venda por Produtor ou Importador.;SPED Tabela 4.3.10;
+2208.90.00 Ex 01;22089000;Combustíveis;112 - Álcool, Inclusive para Fins Carburantes – Venda por Produtor ou Importador.;SPED Tabela 4.3.10;Só o Ex 01 da TIPI
+2207.10.00;22071000;Combustíveis;117 - Álcool, Inclusive para Fins Carburantes – Venda efetuada diretamente do produtor ou do importador para as pessoas jurídi;SPED Tabela 4.3.10;
+2207.20.10;22072010;Combustíveis;117 - Álcool, Inclusive para Fins Carburantes – Venda efetuada diretamente do produtor ou do importador para as pessoas jurídi;SPED Tabela 4.3.10;
+30.01;3001;Fármacos e perfumarias;201 - Produtos Farmacêuticos;SPED Tabela 4.3.10;
+30.03;3003;Fármacos e perfumarias;201 - Produtos Farmacêuticos;SPED Tabela 4.3.10;
+30.04;3004;Fármacos e perfumarias;201 - Produtos Farmacêuticos;SPED Tabela 4.3.10;
+3002.10.1;3002101;Fármacos e perfumarias;201 - Produtos Farmacêuticos;SPED Tabela 4.3.10;
+3002.10.2;3002102;Fármacos e perfumarias;201 - Produtos Farmacêuticos;SPED Tabela 4.3.10;
+3002.10.3;3002103;Fármacos e perfumarias;201 - Produtos Farmacêuticos;SPED Tabela 4.3.10;
+3002.20.1;3002201;Fármacos e perfumarias;201 - Produtos Farmacêuticos;SPED Tabela 4.3.10;
+3002.20.2;3002202;Fármacos e perfumarias;201 - Produtos Farmacêuticos;SPED Tabela 4.3.10;
+3006.30.1;3006301;Fármacos e perfumarias;201 - Produtos Farmacêuticos;SPED Tabela 4.3.10;
+3006.30.2;3006302;Fármacos e perfumarias;201 - Produtos Farmacêuticos;SPED Tabela 4.3.10;
+3002.90.20;30029020;Fármacos e perfumarias;201 - Produtos Farmacêuticos;SPED Tabela 4.3.10;
+3002.90.92;30029092;Fármacos e perfumarias;201 - Produtos Farmacêuticos;SPED Tabela 4.3.10;
+3002.90.99;30029099;Fármacos e perfumarias;201 - Produtos Farmacêuticos;SPED Tabela 4.3.10;
+3005.10.10;30051010;Fármacos e perfumarias;201 - Produtos Farmacêuticos;SPED Tabela 4.3.10;
+3006.60.00;30066000;Fármacos e perfumarias;201 - Produtos Farmacêuticos;SPED Tabela 4.3.10;
+33.03;3303;Fármacos e perfumarias;202 - Produtos de Perfumaria, de Toucador ou de Higiene Pessoal.;SPED Tabela 4.3.10;
+33.04;3304;Fármacos e perfumarias;202 - Produtos de Perfumaria, de Toucador ou de Higiene Pessoal.;SPED Tabela 4.3.10;
+33.05;3305;Fármacos e perfumarias;202 - Produtos de Perfumaria, de Toucador ou de Higiene Pessoal.;SPED Tabela 4.3.10;
+33.07;3307;Fármacos e perfumarias;202 - Produtos de Perfumaria, de Toucador ou de Higiene Pessoal.;SPED Tabela 4.3.10;
+3401.11.90;34011190;Fármacos e perfumarias;202 - Produtos de Perfumaria, de Toucador ou de Higiene Pessoal.;SPED Tabela 4.3.10;
+3401.20.10;34012010;Fármacos e perfumarias;202 - Produtos de Perfumaria, de Toucador ou de Higiene Pessoal.;SPED Tabela 4.3.10;
+96.03.21.00;96032100;Fármacos e perfumarias;202 - Produtos de Perfumaria, de Toucador ou de Higiene Pessoal.;SPED Tabela 4.3.10;
+73.09;7309;Veiculos, maquinas e autopeças;301 - Veículos Automotores e Máquinas Agrícolas (*) Relativamente aos produtos classificados no Capítulo 84 da TIPI, aplica-se;SPED Tabela 4.3.10;
+7310.29;731029;Veiculos, maquinas e autopeças;301 - Veículos Automotores e Máquinas Agrícolas (*) Relativamente aos produtos classificados no Capítulo 84 da TIPI, aplica-se;SPED Tabela 4.3.10;
+7612.90.12;76129012;Veiculos, maquinas e autopeças;301 - Veículos Automotores e Máquinas Agrícolas (*) Relativamente aos produtos classificados no Capítulo 84 da TIPI, aplica-se;SPED Tabela 4.3.10;
+8424.81;842481;Veiculos, maquinas e autopeças;301 - Veículos Automotores e Máquinas Agrícolas (*) Relativamente aos produtos classificados no Capítulo 84 da TIPI, aplica-se;SPED Tabela 4.3.10;Capítulo 84: só máquinas autopropulsadas (não as partes)
+84.29;8429;Veiculos, maquinas e autopeças;301 - Veículos Automotores e Máquinas Agrícolas (*) Relativamente aos produtos classificados no Capítulo 84 da TIPI, aplica-se;SPED Tabela 4.3.10;Capítulo 84: só máquinas autopropulsadas (não as partes)
+8430.69.90;84306990;Veiculos, maquinas e autopeças;301 - Veículos Automotores e Máquinas Agrícolas (*) Relativamente aos produtos classificados no Capítulo 84 da TIPI, aplica-se;SPED Tabela 4.3.10;Capítulo 84: só máquinas autopropulsadas (não as partes)
+84.32;8432;Veiculos, maquinas e autopeças;301 - Veículos Automotores e Máquinas Agrícolas (*) Relativamente aos produtos classificados no Capítulo 84 da TIPI, aplica-se;SPED Tabela 4.3.10;Capítulo 84: só máquinas autopropulsadas (não as partes)
+84.33;8433;Veiculos, maquinas e autopeças;301 - Veículos Automotores e Máquinas Agrícolas (*) Relativamente aos produtos classificados no Capítulo 84 da TIPI, aplica-se;SPED Tabela 4.3.10;Capítulo 84: só máquinas autopropulsadas (não as partes)
+84.34;8434;Veiculos, maquinas e autopeças;301 - Veículos Automotores e Máquinas Agrícolas (*) Relativamente aos produtos classificados no Capítulo 84 da TIPI, aplica-se;SPED Tabela 4.3.10;Capítulo 84: só máquinas autopropulsadas (não as partes)
+84.35;8435;Veiculos, maquinas e autopeças;301 - Veículos Automotores e Máquinas Agrícolas (*) Relativamente aos produtos classificados no Capítulo 84 da TIPI, aplica-se;SPED Tabela 4.3.10;Capítulo 84: só máquinas autopropulsadas (não as partes)
+84.36;8436;Veiculos, maquinas e autopeças;301 - Veículos Automotores e Máquinas Agrícolas (*) Relativamente aos produtos classificados no Capítulo 84 da TIPI, aplica-se;SPED Tabela 4.3.10;Capítulo 84: só máquinas autopropulsadas (não as partes)
+84.37;8437;Veiculos, maquinas e autopeças;301 - Veículos Automotores e Máquinas Agrícolas (*) Relativamente aos produtos classificados no Capítulo 84 da TIPI, aplica-se;SPED Tabela 4.3.10;Capítulo 84: só máquinas autopropulsadas (não as partes)
+87.01;8701;Veiculos, maquinas e autopeças;301 - Veículos Automotores e Máquinas Agrícolas (*) Relativamente aos produtos classificados no Capítulo 84 da TIPI, aplica-se;SPED Tabela 4.3.10;
+87.02;8702;Veiculos, maquinas e autopeças;301 - Veículos Automotores e Máquinas Agrícolas (*) Relativamente aos produtos classificados no Capítulo 84 da TIPI, aplica-se;SPED Tabela 4.3.10;
+87.03;8703;Veiculos, maquinas e autopeças;301 - Veículos Automotores e Máquinas Agrícolas (*) Relativamente aos produtos classificados no Capítulo 84 da TIPI, aplica-se;SPED Tabela 4.3.10;
+87.04;8704;Veiculos, maquinas e autopeças;301 - Veículos Automotores e Máquinas Agrícolas (*) Relativamente aos produtos classificados no Capítulo 84 da TIPI, aplica-se;SPED Tabela 4.3.10;
+87.05;8705;Veiculos, maquinas e autopeças;301 - Veículos Automotores e Máquinas Agrícolas (*) Relativamente aos produtos classificados no Capítulo 84 da TIPI, aplica-se;SPED Tabela 4.3.10;
+87.06;8706;Veiculos, maquinas e autopeças;301 - Veículos Automotores e Máquinas Agrícolas (*) Relativamente aos produtos classificados no Capítulo 84 da TIPI, aplica-se;SPED Tabela 4.3.10;
+8716.20.00;87162000;Veiculos, maquinas e autopeças;301 - Veículos Automotores e Máquinas Agrícolas (*) Relativamente aos produtos classificados no Capítulo 84 da TIPI, aplica-se;SPED Tabela 4.3.10;
+40.11;4011;Veiculos, maquinas e autopeças;304 - Pneumáticos (Pneus Novos e Câmaras-de-Ar);SPED Tabela 4.3.10;
+40.13;4013;Veiculos, maquinas e autopeças;304 - Pneumáticos (Pneus Novos e Câmaras-de-Ar);SPED Tabela 4.3.10;
+21.06.90.10 Ex 02;21069010;Bebidas frias;411 - Preparações compostas, não alcoólicas (extratos concentrados ou sabores concentrados), para elaboração de bebida refrige;SPED Tabela 4.3.10;Só o Ex 02 da TIPI
+22.01;2201;Bebidas frias;415 - Águas, incluindo as águas minerais, naturais ou artificiais, e as águas gaseificadas, não adicionadas de açúcar ou de ou;SPED Tabela 4.3.10;
+22.02;2202;Bebidas frias;419 - Águas, incluindo as águas minerais e as águas gaseificadas, adicionadas de açúcar ou de outros edulcorantes ou aromatiza;SPED Tabela 4.3.10;
+22.03;2203;Bebidas frias;423 - Cervejas de malte – Volume de embalagem até 400 ml. Vendas a PJ varejista ou consumidor final;SPED Tabela 4.3.10;
+22.02.90.00 Ex 03 e 22;22029000;Bebidas frias;427 - Cervejas e chopes especiais classificados nos códigos 22.02.90.00 Ex 03 e 22.03 da TIPI (pessoa jurídica com volume tota;SPED Tabela 4.3.10;Só o Ex 03 e 22 da TIPI
+4016.10.10;40161010;Autopeças;Lei 10.485/2002, Anexo I;Lei 10.485/2002 - Anexo I;
+8483.20.00;84832000;Autopeças;Lei 10.485/2002, Anexo I;Lei 10.485/2002 - Anexo I;
+4016.99.90 Ex 03 e 05;40169990;Autopeças;Lei 10.485/2002, Anexo I;Lei 10.485/2002 - Anexo I;Só o Ex 03 e 05 da TIPI
+8483.30;848330;Autopeças;Lei 10.485/2002, Anexo I;Lei 10.485/2002 - Anexo I;
+68.13;6813;Autopeças;Lei 10.485/2002, Anexo I;Lei 10.485/2002 - Anexo I;
+8483.40;848340;Autopeças;Lei 10.485/2002, Anexo I;Lei 10.485/2002 - Anexo I;
+7007.11.00;70071100;Autopeças;Lei 10.485/2002, Anexo I;Lei 10.485/2002 - Anexo I;
+8483.50;848350;Autopeças;Lei 10.485/2002, Anexo I;Lei 10.485/2002 - Anexo I;
+7007.21.00;70072100;Autopeças;Lei 10.485/2002, Anexo I;Lei 10.485/2002 - Anexo I;
+8505.20;850520;Autopeças;Lei 10.485/2002, Anexo I;Lei 10.485/2002 - Anexo I;
+7009.10.00;70091000;Autopeças;Lei 10.485/2002, Anexo I;Lei 10.485/2002 - Anexo I;
+8507.10.00;85071000;Autopeças;Lei 10.485/2002, Anexo I;Lei 10.485/2002 - Anexo I;
+7320.10.00 Ex 01;73201000;Autopeças;Lei 10.485/2002, Anexo I;Lei 10.485/2002 - Anexo I;Só o Ex 01 da TIPI
+85.11;8511;Autopeças;Lei 10.485/2002, Anexo I;Lei 10.485/2002 - Anexo I;
+8301.20.00;83012000;Autopeças;Lei 10.485/2002, Anexo I;Lei 10.485/2002 - Anexo I;
+8512.20;851220;Autopeças;Lei 10.485/2002, Anexo I;Lei 10.485/2002 - Anexo I;
+8302.30.00;83023000;Autopeças;Lei 10.485/2002, Anexo I;Lei 10.485/2002 - Anexo I;
+8512.30.00;85123000;Autopeças;Lei 10.485/2002, Anexo I;Lei 10.485/2002 - Anexo I;
+8407.33.90;84073390;Autopeças;Lei 10.485/2002, Anexo I;Lei 10.485/2002 - Anexo I;
+8512.40;851240;Autopeças;Lei 10.485/2002, Anexo I;Lei 10.485/2002 - Anexo I;
+8407.34.90;84073490;Autopeças;Lei 10.485/2002, Anexo I;Lei 10.485/2002 - Anexo I;
+8512.90.00;85129000;Autopeças;Lei 10.485/2002, Anexo I;Lei 10.485/2002 - Anexo I;
+8408.20;840820;Autopeças;Lei 10.485/2002, Anexo I;Lei 10.485/2002 - Anexo I;
+8527.2;85272;Autopeças;Lei 10.485/2002, Anexo I;Lei 10.485/2002 - Anexo I;
+8409.91;840991;Autopeças;Lei 10.485/2002, Anexo I;Lei 10.485/2002 - Anexo I;
+8536.50.90 Ex 01;85365090;Autopeças;Lei 10.485/2002, Anexo I;Lei 10.485/2002 - Anexo I;Só o Ex 01 da TIPI
+8409.99;840999;Autopeças;Lei 10.485/2002, Anexo I;Lei 10.485/2002 - Anexo I;
+8539.10;853910;Autopeças;Lei 10.485/2002, Anexo I;Lei 10.485/2002 - Anexo I;
+8413.30;841330;Autopeças;Lei 10.485/2002, Anexo I;Lei 10.485/2002 - Anexo I;
+8544.30.00;85443000;Autopeças;Lei 10.485/2002, Anexo I;Lei 10.485/2002 - Anexo I;
+8413.91.00 Ex 01;84139100;Autopeças;Lei 10.485/2002, Anexo I;Lei 10.485/2002 - Anexo I;Só o Ex 01 da TIPI
+8706.00;870600;Autopeças;Lei 10.485/2002, Anexo I;Lei 10.485/2002 - Anexo I;
+8414.80.21;84148021;Autopeças;Lei 10.485/2002, Anexo I;Lei 10.485/2002 - Anexo I;
+87.07;8707;Autopeças;Lei 10.485/2002, Anexo I;Lei 10.485/2002 - Anexo I;
+8414.80.22;84148022;Autopeças;Lei 10.485/2002, Anexo I;Lei 10.485/2002 - Anexo I;
+87.08;8708;Autopeças;Lei 10.485/2002, Anexo I;Lei 10.485/2002 - Anexo I;
+8415.20;841520;Autopeças;Lei 10.485/2002, Anexo I;Lei 10.485/2002 - Anexo I;
+9029.20.10;90292010;Autopeças;Lei 10.485/2002, Anexo I;Lei 10.485/2002 - Anexo I;
+8421.23.00;84212300;Autopeças;Lei 10.485/2002, Anexo I;Lei 10.485/2002 - Anexo I;
+9029.90.10;90299010;Autopeças;Lei 10.485/2002, Anexo I;Lei 10.485/2002 - Anexo I;
+8421.31.00;84213100;Autopeças;Lei 10.485/2002, Anexo I;Lei 10.485/2002 - Anexo I;
+9030.39.21;90303921;Autopeças;Lei 10.485/2002, Anexo I;Lei 10.485/2002 - Anexo I;
+8431.41.00;84314100;Autopeças;Lei 10.485/2002, Anexo I;Lei 10.485/2002 - Anexo I;
+9031.80.40;90318040;Autopeças;Lei 10.485/2002, Anexo I;Lei 10.485/2002 - Anexo I;
+8431.42.00;84314200;Autopeças;Lei 10.485/2002, Anexo I;Lei 10.485/2002 - Anexo I;
+9032.89.2;9032892;Autopeças;Lei 10.485/2002, Anexo I;Lei 10.485/2002 - Anexo I;
+8433.90.90;84339090;Autopeças;Lei 10.485/2002, Anexo I;Lei 10.485/2002 - Anexo I;
+9104.00.00;91040000;Autopeças;Lei 10.485/2002, Anexo I;Lei 10.485/2002 - Anexo I;
+8481.80.99 Ex 01 e 02;84818099;Autopeças;Lei 10.485/2002, Anexo I;Lei 10.485/2002 - Anexo I;Só o Ex 01 e 02 da TIPI
+9401.20.00;94012000;Autopeças;Lei 10.485/2002, Anexo I;Lei 10.485/2002 - Anexo I;
+8483.10;848310;Autopeças;Lei 10.485/2002, Anexo I;Lei 10.485/2002 - Anexo I;
+40.09;4009;Autopeças;Lei 10.485/2002, Anexo II, item 1: Tubos de borracha vulcanizada não endurecida da posição 40.09, com acessórios, próprias para máquinas e veículos autopropulsados das posições 84.29, 8433.20, 84;Lei 10.485/2002 - Anexo II;Só quando próprio para os veículos/máquinas indicados no item
+84.31;8431;Autopeças;Lei 10.485/2002, Anexo II, item 2: Partes da posição 84.31, reconhecíveis como exclusiva ou principalmente destinadas às máquinas e aparelhos das posições 84.29;Lei 10.485/2002 - Anexo II;Só quando próprio para os veículos/máquinas indicados no item
+8408.90.90;84089090;Autopeças;Lei 10.485/2002, Anexo II, item 3: Motores do código 8408.90.90, próprios para máquinas dos códigos 84.29, 8433.20, 8433.30.00, 8433.40.00 e 8433.5;Lei 10.485/2002 - Anexo II;Só quando próprio para os veículos/máquinas indicados no item
+8412.21.10;84122110;Autopeças;Lei 10.485/2002, Anexo II, item 4: Cilindros hidráulicos do código 8412.21.10, próprios para máquinas dos códigos 84.29, 8433.20, 8433.30.00, 8433.40.00 e 8433.5;Lei 10.485/2002 - Anexo II;Só quando próprio para os veículos/máquinas indicados no item
+8412.21.90;84122190;Autopeças;Lei 10.485/2002, Anexo II, item 5: Outros motores hidráulicos de movimento retilíneo (cilindros) do código 8412.21.90, próprios para máquinas dos códigos 84.29, 8433.20, 8433.30.00, 8433.40.00 e ;Lei 10.485/2002 - Anexo II;Só quando próprio para os veículos/máquinas indicados no item
+8412.31.10;84123110;Autopeças;Lei 10.485/2002, Anexo II, item 6: Cilindros pneumáticos do código 8412.31.10, próprios para produtos dos códigos 8701.20.00, 87.02 e 87.04;Lei 10.485/2002 - Anexo II;Só quando próprio para os veículos/máquinas indicados no item
+8413.60.19;84136019;Autopeças;Lei 10.485/2002, Anexo II, item 7: Bombas volumétricas rotativas do código 8413.60.19, próprias para produtos dos códigos 84.29, 8433.20, 8433.30.00, 8433.40.00, 8433.5, 8701.20.00, 87.02 e 87.04;Lei 10.485/2002 - Anexo II;Só quando próprio para os veículos/máquinas indicados no item
+8414.80.19;84148019;Autopeças;Lei 10.485/2002, Anexo II, item 8: Compressores de ar do código 8414.80.19, próprios para produtos dos códigos 8701.20.00, 87.02 e 87.04;Lei 10.485/2002 - Anexo II;Só quando próprio para os veículos/máquinas indicados no item
+8414.90.39;84149039;Autopeças;Lei 10.485/2002, Anexo II, item 9: Caixas de ventilação para veículos autopropulsados, classificadas no código 8414.90.39;Lei 10.485/2002 - Anexo II;Só quando próprio para os veículos/máquinas indicados no item
+8432.90.00;84329000;Autopeças;Lei 10.485/2002, Anexo II, item 10: Partes classificadas no código 8432.90.00, de máquinas das posições 8432.40.00 e 8432.80.00;Lei 10.485/2002 - Anexo II;Só quando próprio para os veículos/máquinas indicados no item
+8481.10.00;84811000;Autopeças;Lei 10.485/2002, Anexo II, item 11: Válvulas redutoras de pressão classificadas no código 8481.10.00, próprias para máquinas e veículos autopropulsados dos códigos 84.29, 8433.20, 8433.30.00, 8433;Lei 10.485/2002 - Anexo II;Só quando próprio para os veículos/máquinas indicados no item
+8481.20.90;84812090;Autopeças;Lei 10.485/2002, Anexo II, item 12: Válvulas para transmissões óleo-hidráulicas ou pneumáticas classificadas no código 8481.20.90, próprias para máquinas dos códigos 84.29, 8433.20, 8433.30.00, 84;Lei 10.485/2002 - Anexo II;Só quando próprio para os veículos/máquinas indicados no item
+8481.80.92;84818092;Autopeças;Lei 10.485/2002, Anexo II, item 13: Válvulas solenóides classificadas no código 8481.80.92, próprias para máquinas e veículos autopropulsados das posições 84.29, 8433.20, 8433.30.00, 8433.40.00, 8;Lei 10.485/2002 - Anexo II;Só quando próprio para os veículos/máquinas indicados no item
+8483.60.1;8483601;Autopeças;Lei 10.485/2002, Anexo II, item 14: Embreagens de fricção do código 8483.60.1, próprias para máquinas dos códigos 84.29, 8433.20, 8433.30.00, 8433.40.00 e 8433.5;Lei 10.485/2002 - Anexo II;Só quando próprio para os veículos/máquinas indicados no item
+8501.10.19;85011019;Autopeças;Lei 10.485/2002, Anexo II, item 15: Outros motores de corrente contínua do código 8501.10.19, próprios para acionamento elétrico de vidros de veículos autopropulsados.;Lei 10.485/2002 - Anexo II;Só quando próprio para os veículos/máquinas indicados no item

@@ -1,0 +1,6 @@
+__pycache__/
+dados/_anterior/
+# arquivos baixados das fontes a cada execucao; fica so a ultima Tabela 4.3.10
+# convertida, usada se o site do SPED estiver fora do ar
+dados/fontes/*
+!dados/fontes/tab_4310.docx

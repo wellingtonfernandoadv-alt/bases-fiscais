@@ -21,4 +21,16 @@ Contém **somente legislação pública**, extraída e organizada a partir das f
 O aplicativo compara a `versao` do manifest com a que tem guardada e, se houver nova, baixa o
 pacote e confere o SHA-256 antes de usar.
 
-Gerado pelo programa Classificação Fiscal (`publicar_bases.py`). Não há dados de clientes aqui.
+## Atualização automática
+
+Todo dia às 6h (Brasília) o GitHub Actions roda `coletor/atualizar.py`
+(`.github/workflows/atualizar.yml`): baixa cada base da fonte oficial e, se alguma mudou,
+publica um pacote novo. Para rodar na hora: aba **Actions → Atualizar bases normativas → Run workflow**.
+
+- Se uma fonte estiver fora do ar ou vier com bem menos registros que antes (mudança de
+  layout do site), a versão anterior daquela base é mantida e a execução fica vermelha
+  (o GitHub avisa por e-mail).
+- `status.json` mostra a última verificação e o resultado de cada base.
+- `dados/` guarda a última versão boa de cada base (CSV) e a meta de cada uma.
+
+Não há dados de clientes aqui.

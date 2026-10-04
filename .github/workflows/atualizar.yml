@@ -1,0 +1,61 @@
+name: Atualizar bases normativas
+
+# Todo dia às 6h (Brasília) baixa a legislação das fontes oficiais e, se algo
+# mudou, publica um pacote novo para o Ficha Fiscal. Também roda pelo botão
+# "Run workflow" na aba Actions.
+on:
+  schedule:
+    - cron: "0 9 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: atualizar-bases
+  cancel-in-progress: false
+
+jobs:
+  atualizar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      TZ: America/Sao_Paulo
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: coletor/requirements.txt
+
+      - name: LibreOffice (converte a Tabela 4.3.10 do SPED, que vem em .doc)
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq --no-install-recommends libreoffice-writer > /dev/null
+
+      - run: pip install -r coletor/requirements.txt
+
+      - name: Baixar fontes e gerar o pacote
+        id: coletar
+        run: python coletor/atualizar.py
+        continue-on-error: true
+
+      - name: Publicar (só o que mudou)
+        run: |
+          git config user.name "bases-fiscais[bot]"
+          git config user.email "bases-fiscais@users.noreply.github.com"
+          git add -A dados manifest.json bases.json.gz status.json
+          if git diff --cached --quiet; then
+            echo "Nada mudou."
+          else
+            git commit -m "Bases normativas $(python -c 'import json;print(json.load(open("status.json"))["versao"])') ($(date +%d/%m/%Y))"
+            git push
+          fi
+
+      - name: Avisar falha de alguma fonte
+        if: steps.coletar.outcome == 'failure'
+        run: |
+          echo "::error::Alguma fonte falhou: veja o log do passo 'Baixar fontes'. A versão anterior dessa base foi mantida."
+          exit 1
