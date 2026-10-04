@@ -12,6 +12,7 @@ Seguranca:
     alguma falhou, para o GitHub avisar por e-mail (o que deu certo e publicado).
 """
 import json
+import os
 import shutil
 import sys
 import traceback
@@ -29,7 +30,10 @@ BASES = [
     ("ncm", "Tabela NCM", base_ncm, "base_ncm"),
     ("monofasico", "PIS/COFINS monofásico", base_monofasico, "base_monofasico"),
 ]
-QUEDA_MAXIMA = 0.2  # mais de 20% a menos de registros: provavel mudanca de layout da fonte
+QUEDA_MAXIMA = 0.2
+# Bases puladas nesta execucao (ex.: PULAR=cest no GitHub Actions: o site do CONFAZ
+# recusa conexoes de fora do Brasil). Ficam com a ultima versao publicada.
+PULAR = {b.strip() for b in os.environ.get("PULAR", "").split(",") if b.strip()}  # mais de 20% a menos de registros: provavel mudanca de layout da fonte
 
 
 def _linhas(csv):
@@ -70,6 +74,12 @@ def atualizar_base(chave, nome, mod, arq):
 def main():
     resultados = []
     for chave, nome, mod, arq in BASES:
+        if chave in PULAR:
+            print(f"{nome}: pulada nesta execução (PULAR)", flush=True)
+            resultados.append({"base": chave, "nome": nome, "ok": True, "pulada": True,
+                               "registros": _linhas(DADOS / f"{arq}.csv"),
+                               "motivo": "fonte inacessível daqui; mantida a última versão publicada"})
+            continue
         print(f"Atualizando {nome}...", flush=True)
         r = atualizar_base(chave, nome, mod, arq)
         print("  ", {k: v for k, v in r.items() if k != "detalhe"}, flush=True)
