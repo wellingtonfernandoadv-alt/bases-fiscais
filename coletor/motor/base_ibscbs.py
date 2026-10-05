@@ -75,8 +75,8 @@ def extrai(dados):
                     "nro_anexo": a.get("NroAnexo") or "", "observacao": _texto(a.get("Observacao")),
                     "inicio": _data(a.get("DthIniVig")), "fim": _data(a.get("DthFimVig")),
                 })
-    df = pd.DataFrame(linhas, columns=COLUNAS).sort_values("cclasstrib")
-    di = pd.DataFrame(itens, columns=COLUNAS_ITENS).sort_values(["cclasstrib", "tipo", "codigo", "item_anexo"])
+    df = pd.DataFrame(linhas, columns=COLUNAS).sort_values("cclasstrib", kind="stable")
+    di = pd.DataFrame(itens, columns=COLUNAS_ITENS).sort_values(COLUNAS_ITENS, kind="stable")
     return df, di
 
 
@@ -91,8 +91,9 @@ def atualizar(conteudo=None):
         raise RuntimeError(f"Tabela IBS/CBS incompleta ({len(df)} cClassTrib, {(di.tipo == 'NCM').sum()} NCM)")
     ARQ_FONTE.write_bytes(gzip.compress(json.dumps(dados, ensure_ascii=False).encode("utf-8"), mtime=0))
     anterior = set(carregar().cclasstrib) if ARQ_BASE.exists() else None
-    df.to_csv(ARQ_BASE, index=False, encoding="utf-8-sig", sep=";")
-    di.to_csv(ARQ_ITENS, index=False, encoding="utf-8-sig", sep=";")
+    # quebra de linha fixa: o mesmo conteudo gera o mesmo arquivo no Windows e no Linux
+    df.to_csv(ARQ_BASE, index=False, encoding="utf-8-sig", sep=";", lineterminator="\n")
+    di.to_csv(ARQ_ITENS, index=False, encoding="utf-8-sig", sep=";", lineterminator="\n")
     meta = {"atualizado_em": datetime.now().isoformat(timespec="minutes"), "fonte": URL,
             "cclasstrib": len(df), "ncm": int((di.tipo == "NCM").sum()), "nbs": int((di.tipo == "NBS").sum()),
             "publicacao_mais_recente": max(df.publicacao)}

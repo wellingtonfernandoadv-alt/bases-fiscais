@@ -19,7 +19,7 @@ try {
     git pull --quiet --rebase 2>&1 | Out-Null
     if ($LASTEXITCODE -ne 0) { throw "git pull falhou" }
 
-    $env:PULAR = "cat68,ncm,monofasico"
+    $env:PULAR = "cat68,ncm,monofasico,ibscbs"
     $env:PYTHONIOENCODING = "utf-8"
     $saida = & $Python coletor\atualizar.py 2>&1 | Out-String
     $codigo = $LASTEXITCODE
