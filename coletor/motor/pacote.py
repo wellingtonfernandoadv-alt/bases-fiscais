@@ -15,8 +15,9 @@ import hashlib
 import json
 from datetime import datetime
 
-from motor import base_cest, base_monofasico, base_ncm, base_st
-from motor.config import CSOSN_ST, CST_MONOFASICO, LUBRIFICANTES, RESTRITIVA
+from motor import base_cest, base_ibscbs, base_monofasico, base_ncm, base_st
+from motor.config import (COMBUSTIVEIS_FONTE, COMBUSTIVEIS_PREFIXOS, CSOSN_ST, CST_MONOFASICO,
+                          IMPOSTO_SELETIVO, IMPOSTO_SELETIVO_FONTE, LUBRIFICANTES, RESTRITIVA)
 
 FORMATO = 1
 
@@ -41,6 +42,10 @@ def montar():
             "trib_normal": {"cst": "0", "csosn": "102", "cfop_int": "5102", "cfop_ext": "6102"},
             "trib_st": {"cst": "60", "csosn": "500", "cfop_int": "5405", "cfop_ext": "6404"},
             "pis_monofasico_ate": "2026-12-31",  # PIS/COFINS extintos em 2027 (EC 132/2023)
+            "imposto_seletivo": IMPOSTO_SELETIVO,
+            "imposto_seletivo_fonte": IMPOSTO_SELETIVO_FONTE,
+            "combustiveis_prefixos": COMBUSTIVEIS_PREFIXOS,
+            "combustiveis_fonte": COMBUSTIVEIS_FONTE,
         },
         "bases": {
             "cat68": _tabela(base_st.carregar(),
@@ -60,6 +65,13 @@ def montar():
                            ["codigo", "digitos", "nivel", "descricao", "inicio", "fim", "ato"],
                            {**{k: v for k, v in base_ncm.meta().items() if k not in ("incluidos", "excluidos")},
                             "nome": "Tabela NCM (Siscomex)"}),
+            "ibscbs": _tabela(base_ibscbs.carregar(), base_ibscbs.COLUNAS,
+                              {**{k: v for k, v in base_ibscbs.meta().items() if k not in ("incluidos", "excluidos")},
+                               "nome": "IBS/CBS — classificação tributária (Conformidade Fácil)"}),
+            "ibscbs_itens": _tabela(base_ibscbs.carregar_itens(), base_ibscbs.COLUNAS_ITENS,
+                                    {"atualizado_em": base_ibscbs.meta().get("atualizado_em", ""),
+                                     "fonte": base_ibscbs.URL,
+                                     "nome": "IBS/CBS — NCM e NBS por cClassTrib (anexos da LC 214)"}),
         },
     }
 

@@ -21,7 +21,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
-from motor import base_cest, base_monofasico, base_ncm, base_st, pacote  # noqa: E402
+from motor import base_cest, base_ibscbs, base_monofasico, base_ncm, base_st, pacote  # noqa: E402
 from motor.config import DADOS, RAIZ  # noqa: E402
 
 BASES = [
@@ -29,6 +29,7 @@ BASES = [
     ("cest", "Convênio ICMS 142/2018", base_cest, "base_cest"),
     ("ncm", "Tabela NCM", base_ncm, "base_ncm"),
     ("monofasico", "PIS/COFINS monofásico", base_monofasico, "base_monofasico"),
+    ("ibscbs", "IBS/CBS (Conformidade Fácil)", base_ibscbs, "base_ibscbs"),
 ]
 QUEDA_MAXIMA = 0.2
 # Bases puladas nesta execucao (ex.: PULAR=cest no GitHub Actions: o site do CONFAZ
