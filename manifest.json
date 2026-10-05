@@ -1,11 +1,11 @@
 {
  "formato": 1,
- "versao": "2026.10.05-2012",
- "gerado_em": "2026-10-05T20:12",
+ "versao": "2026.10.05-2014",
+ "gerado_em": "2026-10-05T20:14",
  "arquivo": "bases.json.gz",
- "tamanho": 418437,
- "sha256": "878cd7f3d3a83c37ff72b5d4bd5627142af3bec30159b8bcc63599ea9cb9968c",
- "conteudo_sha256": "3685dfbb712c88d26f383e319f007467d9e590646cc035c95059004f5510e04f",
+ "tamanho": 417341,
+ "sha256": "2c6c159dd7e65d604b79437ece4e8ba3b38eafaa3684faa9ff18079f1022cb22",
+ "conteudo_sha256": "5cffbac002b884b47e31dc2aee5ec2ef43a1c2e2d000f7d573ed557b625fcf25",
  "bases": {
   "cat68": {
    "nome": "Portaria CAT 68/2019 (ICMS-ST SP)",
@@ -31,12 +31,12 @@
   "ibscbs": {
    "nome": "IBS/CBS — classificação tributária (Conformidade Fácil)",
    "registros": 173,
-   "atualizado_em": "2026-10-05T20:12"
+   "atualizado_em": "2026-10-05T20:14"
   },
   "ibscbs_itens": {
    "nome": "IBS/CBS — NCM e NBS por cClassTrib (anexos da LC 214)",
    "registros": 4728,
-   "atualizado_em": "2026-10-05T20:12"
+   "atualizado_em": "2026-10-05T20:14"
   }
  }
 }

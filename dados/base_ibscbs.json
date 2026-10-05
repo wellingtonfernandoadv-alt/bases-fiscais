@@ -1,8 +1,10 @@
 {
- "atualizado_em": "2026-10-05T20:12",
+ "atualizado_em": "2026-10-05T20:14",
  "fonte": "https://dfe-portal.svrs.rs.gov.br/Cff/ClassificacaoTributaria",
  "cclasstrib": 173,
  "ncm": 4174,
  "nbs": 554,
- "publicacao_mais_recente": "2026-10-01"
+ "publicacao_mais_recente": "2026-10-01",
+ "incluidos": [],
+ "excluidos": []
 }
