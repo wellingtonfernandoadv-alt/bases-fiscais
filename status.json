@@ -1,5 +1,5 @@
 {
- "verificado_em": "2026-10-07T06:19",
+ "verificado_em": "2026-10-08T06:17",
  "pacote_novo": false,
  "versao": "2026.10.05-2016",
  "bases": [
@@ -38,9 +38,10 @@
   {
    "base": "ibscbs",
    "nome": "IBS/CBS (Conformidade Fácil)",
-   "ok": false,
-   "erro": "URLError: <urlopen error [Errno 110] Connection timed out>",
-   "registros": 184
+   "ok": true,
+   "mudou": false,
+   "registros": 184,
+   "antes": 184
   }
  ]
 }
