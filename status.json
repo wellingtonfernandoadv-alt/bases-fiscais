@@ -1,5 +1,5 @@
 {
- "verificado_em": "2026-10-25T10:38",
+ "verificado_em": "2026-10-27T12:14",
  "pacote_novo": false,
  "versao": "2026.10.05-2016",
  "bases": [
@@ -30,10 +30,9 @@
   {
    "base": "monofasico",
    "nome": "PIS/COFINS monofásico",
-   "ok": true,
-   "mudou": false,
-   "registros": 125,
-   "antes": 125
+   "ok": false,
+   "erro": "RemoteDisconnected: Remote end closed connection without response",
+   "registros": 125
   },
   {
    "base": "ibscbs",
