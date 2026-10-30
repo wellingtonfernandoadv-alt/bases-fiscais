@@ -1,7 +1,7 @@
 {
- "verificado_em": "2026-10-29T12:57",
- "pacote_novo": false,
- "versao": "2026.10.05-2016",
+ "verificado_em": "2026-10-30T12:44",
+ "pacote_novo": true,
+ "versao": "2026.10.30-1244",
  "bases": [
   {
    "base": "cat68",
@@ -38,7 +38,7 @@
    "base": "ibscbs",
    "nome": "IBS/CBS (Conformidade Fácil)",
    "ok": true,
-   "mudou": false,
+   "mudou": true,
    "registros": 184,
    "antes": 184
   }
