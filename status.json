@@ -1,6 +1,6 @@
 {
- "verificado_em": "2026-10-30T12:44",
- "pacote_novo": true,
+ "verificado_em": "2026-10-31T12:12",
+ "pacote_novo": false,
  "versao": "2026.10.30-1244",
  "bases": [
   {
@@ -22,10 +22,9 @@
   {
    "base": "ncm",
    "nome": "Tabela NCM",
-   "ok": true,
-   "mudou": false,
-   "registros": 15157,
-   "antes": 15157
+   "ok": false,
+   "erro": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+   "registros": 15157
   },
   {
    "base": "monofasico",
@@ -38,7 +37,7 @@
    "base": "ibscbs",
    "nome": "IBS/CBS (Conformidade Fácil)",
    "ok": true,
-   "mudou": true,
+   "mudou": false,
    "registros": 184,
    "antes": 184
   }
