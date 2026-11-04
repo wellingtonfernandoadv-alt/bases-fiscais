@@ -1,16 +1,16 @@
 {
  "formato": 1,
- "versao": "2026.10.30-1244",
- "gerado_em": "2026-10-30T12:44",
+ "versao": "2026.11.04-1358",
+ "gerado_em": "2026-11-04T13:58",
  "arquivo": "bases.json.gz",
- "tamanho": 417324,
- "sha256": "1b996b97df1520fe62a3c80c9af4afe66cf011998f3398d788d1d7bd69916471",
- "conteudo_sha256": "ff8ebd6e09847934fdc4da0bcfe2e00aa2da260babab9a09b7489d1fd7aad46c",
+ "tamanho": 417363,
+ "sha256": "4e97ab9109f043483cd22ea4565da3f090f828a0f1727152b4b551639e8298eb",
+ "conteudo_sha256": "9407904d55853cf174bf36663feb73ce25bad1bb2aff19b0ff546003db4e30f2",
  "bases": {
   "cat68": {
    "nome": "Portaria CAT 68/2019 (ICMS-ST SP)",
    "registros": 1049,
-   "atualizado_em": "2026-10-03T18:32"
+   "atualizado_em": "2026-11-04T13:58"
   },
   "cest": {
    "nome": "Convênio ICMS 142/2018 (CEST)",
