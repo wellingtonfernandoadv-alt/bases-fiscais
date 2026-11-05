@@ -1,13 +1,13 @@
 {
- "verificado_em": "2026-11-04T13:58",
- "pacote_novo": true,
+ "verificado_em": "2026-11-05T14:14",
+ "pacote_novo": false,
  "versao": "2026.11.04-1358",
  "bases": [
   {
    "base": "cat68",
    "nome": "Portaria CAT 68/2019",
    "ok": true,
-   "mudou": true,
+   "mudou": false,
    "registros": 1049,
    "antes": 1049
   },
@@ -37,10 +37,9 @@
   {
    "base": "ibscbs",
    "nome": "IBS/CBS (Conformidade Fácil)",
-   "ok": true,
-   "mudou": false,
-   "registros": 184,
-   "antes": 184
+   "ok": false,
+   "erro": "URLError: <urlopen error [Errno 104] Connection reset by peer>",
+   "registros": 184
   }
  ]
 }
