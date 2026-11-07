@@ -1,5 +1,5 @@
 {
- "verificado_em": "2026-11-05T14:14",
+ "verificado_em": "2026-11-07T12:32",
  "pacote_novo": false,
  "versao": "2026.11.04-1358",
  "bases": [
@@ -37,9 +37,10 @@
   {
    "base": "ibscbs",
    "nome": "IBS/CBS (Conformidade Fácil)",
-   "ok": false,
-   "erro": "URLError: <urlopen error [Errno 104] Connection reset by peer>",
-   "registros": 184
+   "ok": true,
+   "mudou": false,
+   "registros": 184,
+   "antes": 184
   }
  ]
 }
