@@ -1,8 +1,10 @@
 {
- "atualizado_em": "2026-10-03T23:17",
+ "atualizado_em": "2026-11-12T14:27",
  "fonte": "https://portalunico.siscomex.gov.br/classif/api/publico/nomenclatura/download/json?perfil=PUBLICO",
- "vigencia": "Vigente em 03/10/2026",
+ "vigencia": "Vigente em 12/11/2026",
  "ato": "Resolução Gecex nº 926/2026",
  "codigos": 15157,
- "ncm_8_digitos": 10516
+ "ncm_8_digitos": 10516,
+ "incluidos": [],
+ "excluidos": []
 }

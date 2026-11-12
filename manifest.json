@@ -1,11 +1,11 @@
 {
  "formato": 1,
- "versao": "2026.11.04-1358",
- "gerado_em": "2026-11-04T13:58",
+ "versao": "2026.11.12-1427",
+ "gerado_em": "2026-11-12T14:27",
  "arquivo": "bases.json.gz",
- "tamanho": 417363,
- "sha256": "4e97ab9109f043483cd22ea4565da3f090f828a0f1727152b4b551639e8298eb",
- "conteudo_sha256": "9407904d55853cf174bf36663feb73ce25bad1bb2aff19b0ff546003db4e30f2",
+ "tamanho": 417330,
+ "sha256": "08a6db0f0ac9973a51dc884f17436f67bff9ef946064f8ef7dc2089644c6ba0d",
+ "conteudo_sha256": "6f8e7f0da6aa66d45f663eaa9d52327274e3c7b2137be3458be095effea4327a",
  "bases": {
   "cat68": {
    "nome": "Portaria CAT 68/2019 (ICMS-ST SP)",
@@ -25,8 +25,8 @@
   "ncm": {
    "nome": "Tabela NCM (Siscomex)",
    "registros": 15157,
-   "atualizado_em": "2026-10-03T23:17",
-   "vigencia": "Vigente em 03/10/2026"
+   "atualizado_em": "2026-11-12T14:27",
+   "vigencia": "Vigente em 12/11/2026"
   },
   "ibscbs": {
    "nome": "IBS/CBS — classificação tributária (Conformidade Fácil)",
