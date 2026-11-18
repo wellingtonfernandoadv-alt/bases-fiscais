@@ -1,7 +1,7 @@
 {
- "verificado_em": "2026-11-17T15:19",
- "pacote_novo": false,
- "versao": "2026.11.12-1427",
+ "verificado_em": "2026-11-18T14:54",
+ "pacote_novo": true,
+ "versao": "2026.11.18-1454",
  "bases": [
   {
    "base": "cat68",
@@ -23,7 +23,7 @@
    "base": "ncm",
    "nome": "Tabela NCM",
    "ok": true,
-   "mudou": false,
+   "mudou": true,
    "registros": 15157,
    "antes": 15157
   },
@@ -31,7 +31,7 @@
    "base": "monofasico",
    "nome": "PIS/COFINS monofásico",
    "ok": false,
-   "erro": "HTTPError: HTTP Error 429: Too Many Requests",
+   "erro": "RemoteDisconnected: Remote end closed connection without response",
    "registros": 125
   },
   {
