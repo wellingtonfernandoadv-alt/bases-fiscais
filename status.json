@@ -1,6 +1,6 @@
 {
- "verificado_em": "2026-11-18T14:54",
- "pacote_novo": true,
+ "verificado_em": "2026-11-19T15:05",
+ "pacote_novo": false,
  "versao": "2026.11.18-1454",
  "bases": [
   {
@@ -23,7 +23,7 @@
    "base": "ncm",
    "nome": "Tabela NCM",
    "ok": true,
-   "mudou": true,
+   "mudou": false,
    "registros": 15157,
    "antes": 15157
   },
